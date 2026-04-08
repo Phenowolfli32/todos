@@ -1,5 +1,5 @@
 <x-guest-layout>
-    <div class="max-w-md mx-auto mt-12 bg-white shadow-lg rounded-xl p-8">
+    <div class="max-w-md mx-auto mt-12 bg-white rounded-xl p-8">
 
         <!-- Title -->
         <h2 class="text-2xl font-bold text-center text-gray-800 mb-6">
