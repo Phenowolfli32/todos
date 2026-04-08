@@ -17,13 +17,13 @@
 
     @include('layouts.navigation')
 
-    @isset($header)
+    @hasSection('header')
         <header class="bg-white border-b border-slate-200">
             <div class="max-w-7xl mx-auto py-5 px-4 sm:px-6 lg:px-8">
-                {{ $header }}
+                @yield('header')
             </div>
         </header>
-    @endisset
+    @endif
 
     @if(session('success'))
         <div class="max-w-7xl mx-auto mt-5 px-4 sm:px-6 lg:px-8" x-data="{ show: true }" x-show="show">
